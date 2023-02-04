@@ -1,1 +1,1 @@
-This function recieves a matrix and returns the sum-normalized values for the matrix.
+This function receives a matrix and returns the sum-normalized values for the matrix.
