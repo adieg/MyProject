@@ -10,7 +10,7 @@ example:
 
 Input dataframe:
 ```
-      S1 S2
+       S1 S2
  Gene1 30 10
  Gene2 50 45
  Gene3 20 45
