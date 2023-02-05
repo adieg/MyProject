@@ -30,10 +30,11 @@ Gene3 0.2 0.45
 ### Usage
 
  >  Please provide example of script usage: how do you run it ?
+ To run the script 
+ ``` python
+ Norm_matrix = sum_norm(yourDataFrame)
+ ```
 
 ### Development
 
-> If someone wants to add to your script/tool: 
->     - is there todo list?
->     - what would you like to have it more ?
->     - write down your wish list for the script...
+Ideally I would like to add several different noramlization methods (log scaling, Z-score, scalling to a range) to this module so the user can choose which type he needs.
