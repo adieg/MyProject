@@ -5,7 +5,7 @@ import numpy as np
     
 def sum_norm(df):
     '''
-    describe the func
+    This function calculates the sum-normalized values (fractions) of the dataframe over columns
     '''
     n=df.shape[0]
     sumcol = df.sum(axis=0)
