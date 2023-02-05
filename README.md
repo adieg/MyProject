@@ -32,7 +32,7 @@ Gene3 0.2 0.45
 
  To run the script 
  ``` python
- Norm_matrix = sum_norm(yourDataFrame)
+
  ```
 
 ### Development
