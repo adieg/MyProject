@@ -1,4 +1,4 @@
-# Data Frame Project
+# Data Frame normalization Project
 
 ### Purpose
 This script receives a numeric DataFrame and sum-normalizes it (each cell divided to the sum of its column).
@@ -29,7 +29,7 @@ Gene3 0.2 0.45
 
 ### Usage
 
- >  Please provide example of script usage: how do you run it ?
+
  To run the script 
  ``` python
  Norm_matrix = sum_norm(yourDataFrame)
