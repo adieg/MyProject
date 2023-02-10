@@ -1,5 +1,5 @@
 import sys
-import sumnorm as nm
+import normData as nm
 import pandas as pd
 import numpy as np
 
@@ -8,7 +8,7 @@ data = {
   "V2": [10, 45, 45]
 }
 
-
+1
 def main(df, normalization_type="scaling_range"):
     """
     This function send calculation to the right normalization type:
