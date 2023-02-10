@@ -2,7 +2,6 @@ import sys
 import pandas as pd
 import numpy as np
     
-    
 def sum_norm(df):
     '''
     This function calculates the sum-normalized values (fractions) of the dataframe over columns
@@ -42,5 +41,12 @@ def main(df, normalization_type="scaling_range"):
     return result
 
 
-if __name__ == "__main__":
-    main(sys.argv[1:])
+# if __name__ == "__main__":
+#     data = {
+#         "V1": [30, 50, 20],
+#         "V2": [10, 45, 45]
+#     }
+
+#     df = pd.DataFrame(data)
+
+#     print(main(df, sys.argv[1:]))
