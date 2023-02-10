@@ -25,28 +25,3 @@ def scaling_range_norm(df, val_min=0, val_max=0):
 
     return df_scaling
 
-
-def main(df, normalization_type="scaling_range"):
-    """
-    This function send calculation to the right normalization type:
-    """
-    if normalization_type == "sum":
-        result = sum_norm(df)
-    elif normalization_type == "scaling_range":
-        result = scaling_range_norm(df)
-    else:
-        print("Error in normalization type! Calculating sum normalization.")
-        result = sum_norm(df)
-
-    return result
-
-
-# if __name__ == "__main__":
-#     data = {
-#         "V1": [30, 50, 20],
-#         "V2": [10, 45, 45]
-#     }
-
-#     df = pd.DataFrame(data)
-
-#     print(main(df, sys.argv[1:]))
