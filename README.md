@@ -38,3 +38,6 @@ Gene3 0.2 0.45
 ### Development
 
 Ideally I would like to add several different noramlization methods (log scaling, Z-score, scalling to a range) to this module so the user can choose which type he needs.
+
+### tests
+To test for code formatting run black --check --diff .
