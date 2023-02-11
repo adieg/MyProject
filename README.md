@@ -1,39 +1,33 @@
 # Data Frame normalization Project
 
 ### Purpose
-This script receives a numeric DataFrame and sum-normalizes it (each cell divided to the sum of its column).
+The script main.py enables the user to run different kinds of normalization type on a numeric matrix using normData module. 
+normData module provides several types of normalization for your matrix.
 
-You can use this script as an easy way to normalize your data.
+The input file should be a numeric matrix.
 
-The input should be a numeric pandas Data-frame.
+When running this the script, the user should choose the normalization type.
 
-The output will be the fractions of of each column.
-
-
-### Example: 
-
-Input dataframe:
-```
-       S1 S2
- Gene1 30 10
- Gene2 50 45
- Gene3 20 45
-```
-Output dataframe:
-```
-      S1  S2
-Gene1 0.3 0.1
-Gene2 0.5 0.45
-Gene3 0.2 0.45
-```
 
 ### Usage
 
+install requirements
+``` 
+pip install -r requirements.txt
+```
 
- To run the script 
- ``` python
+// how to run
 
- ```
+For sum-normaliziation over columns, run:
+``` 
+python main.py sum <Path_Of_Csv>
+```
+
+for scaled normalization over columns, run:
+``` 
+python main.py scaling_range <Path_Of_Csv>
+```
+
 
 ### Development
 

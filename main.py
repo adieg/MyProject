@@ -3,11 +3,6 @@ import normData as nm
 import pandas as pd
 import numpy as np
 
-data = {
-  "V1": [50, 55, 10],
-  "V2": [10, 45, 45]
-}
-
 def main(df, normalization_type="scaling_range"):
     """
     This function send calculation to the right normalization type:
@@ -23,8 +18,9 @@ def main(df, normalization_type="scaling_range"):
     return result
 
 
-if __name__ == "__main__":
 
+if __name__ == "__main__":
+    data = pd.read_csv(sys.argv[2],header=0)
     df = pd.DataFrame(data)
 
-    print(main(df, sys.argv[1:]))
+    print(main(df, sys.argv[1]))
