@@ -1,8 +1,10 @@
-import sys
-import pandas as pd
 import numpy as np
+<<<<<<< HEAD:sumnorm.py
 
 
+=======
+    
+>>>>>>> 8d9e4f921e13e7eee8f8b3aa81b31958725eafe5:normData.py
 def sum_norm(df):
     """
     This function calculates the sum-normalized values (fractions) of the dataframe over columns
@@ -27,21 +29,3 @@ def scaling_range_norm(df, val_min=0, val_max=0):
 
     return df_scaling
 
-
-def main(df, normalization_type="scaling_range"):
-    """
-    This function send calculation to the right normalization type:
-    """
-    if normalization_type == "sum":
-        result = sum_norm(df)
-    elif normalization_type == "scaling_range":
-        result = scaling_range_norm(df)
-    else:
-        print("Error in normalization type! Calculating sum normalization.")
-        result = sum_norm(df)
-
-    return result
-
-
-if __name__ == "__main__":
-    main(sys.argv[1:])
